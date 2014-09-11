@@ -7,8 +7,8 @@
 //
 
 #import "SpriteViewController.h"
-#import "SpriteMyScene.h"
-
+#import "MainScene.h"
+#import "DodgeScene.h"
 @implementation SpriteViewController
 
 - (void)viewDidLoad
@@ -21,7 +21,7 @@
     skView.showsNodeCount = YES;
     
     // Create and configure the scene.
-    SKScene * scene = [SpriteMyScene sceneWithSize:skView.bounds.size];
+    SKScene * scene = [MainScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.

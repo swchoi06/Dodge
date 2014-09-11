@@ -17,7 +17,6 @@
 		F5E2811519BD7D60006F0CAD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E2811319BD7D60006F0CAD /* Main_iPhone.storyboard */; };
 		F5E2811819BD7D60006F0CAD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E2811619BD7D60006F0CAD /* Main_iPad.storyboard */; };
 		F5E2811B19BD7D60006F0CAD /* SpriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E2811A19BD7D60006F0CAD /* SpriteViewController.m */; };
-		F5E2811E19BD7D60006F0CAD /* SpriteMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E2811D19BD7D60006F0CAD /* SpriteMyScene.m */; };
 		F5E2812019BD7D60006F0CAD /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E2811F19BD7D60006F0CAD /* Spaceship.png */; };
 		F5E2812219BD7D60006F0CAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E2812119BD7D60006F0CAD /* Images.xcassets */; };
 		F5E2812919BD7D60006F0CAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E2812819BD7D60006F0CAD /* XCTest.framework */; };
@@ -25,6 +24,18 @@
 		F5E2812B19BD7D60006F0CAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E2810319BD7D60006F0CAD /* UIKit.framework */; };
 		F5E2813319BD7D60006F0CAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5E2813119BD7D60006F0CAD /* InfoPlist.strings */; };
 		F5E2813519BD7D60006F0CAD /* DodgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E2813419BD7D60006F0CAD /* DodgeTests.m */; };
+		F5E2814019BD7DF6006F0CAD /* DodgeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E2813F19BD7DF6006F0CAD /* DodgeScene.m */; };
+		F5E2814319BD910C006F0CAD /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E2814219BD910C006F0CAD /* MainScene.m */; };
+		F5E2814B19BD9401006F0CAD /* buttonRestart.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E2814619BD9401006F0CAD /* buttonRestart.png */; };
+		F5E2814C19BD9401006F0CAD /* buttonStart.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E2814719BD9401006F0CAD /* buttonStart.png */; };
+		F5E2814D19BD9401006F0CAD /* endGame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5E2814819BD9401006F0CAD /* endGame.mp3 */; };
+		F5E2814E19BD9401006F0CAD /* getOnePoint.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5E2814919BD9401006F0CAD /* getOnePoint.mp3 */; };
+		F5E2814F19BD9401006F0CAD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E2814A19BD9401006F0CAD /* logo.png */; };
+		F5E2815219BD94B7006F0CAD /* DodgeSound.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E2815119BD94B7006F0CAD /* DodgeSound.m */; };
+		F5E2815419BD955E006F0CAD /* buttonClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5E2815319BD955E006F0CAD /* buttonClick.mp3 */; };
+		F5E2815719BD9CA4006F0CAD /* DodgeEndGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E2815619BD9CA4006F0CAD /* DodgeEndGame.m */; };
+		F5E2815A19BDA2CA006F0CAD /* backBarEndScene.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E2815819BDA2CA006F0CAD /* backBarEndScene.png */; };
+		F5E2815B19BDA2CA006F0CAD /* buttonTwitter.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E2815919BDA2CA006F0CAD /* buttonTwitter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +64,6 @@
 		F5E2811719BD7D60006F0CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		F5E2811919BD7D60006F0CAD /* SpriteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteViewController.h; sourceTree = "<group>"; };
 		F5E2811A19BD7D60006F0CAD /* SpriteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteViewController.m; sourceTree = "<group>"; };
-		F5E2811C19BD7D60006F0CAD /* SpriteMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteMyScene.h; sourceTree = "<group>"; };
-		F5E2811D19BD7D60006F0CAD /* SpriteMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteMyScene.m; sourceTree = "<group>"; };
 		F5E2811F19BD7D60006F0CAD /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		F5E2812119BD7D60006F0CAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F5E2812719BD7D60006F0CAD /* DodgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DodgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +71,23 @@
 		F5E2813019BD7D60006F0CAD /* DodgeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DodgeTests-Info.plist"; sourceTree = "<group>"; };
 		F5E2813219BD7D60006F0CAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5E2813419BD7D60006F0CAD /* DodgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DodgeTests.m; sourceTree = "<group>"; };
+		F5E2813E19BD7DF6006F0CAD /* DodgeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DodgeScene.h; sourceTree = "<group>"; };
+		F5E2813F19BD7DF6006F0CAD /* DodgeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DodgeScene.m; sourceTree = "<group>"; };
+		F5E2814119BD910C006F0CAD /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		F5E2814219BD910C006F0CAD /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
+		F5E2814419BD92ED006F0CAD /* DodgeGameSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DodgeGameSetting.h; sourceTree = "<group>"; };
+		F5E2814619BD9401006F0CAD /* buttonRestart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonRestart.png; path = Resource/buttonRestart.png; sourceTree = "<group>"; };
+		F5E2814719BD9401006F0CAD /* buttonStart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonStart.png; path = Resource/buttonStart.png; sourceTree = "<group>"; };
+		F5E2814819BD9401006F0CAD /* endGame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = endGame.mp3; path = Resource/endGame.mp3; sourceTree = "<group>"; };
+		F5E2814919BD9401006F0CAD /* getOnePoint.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = getOnePoint.mp3; path = Resource/getOnePoint.mp3; sourceTree = "<group>"; };
+		F5E2814A19BD9401006F0CAD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Resource/logo.png; sourceTree = "<group>"; };
+		F5E2815019BD94B7006F0CAD /* DodgeSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DodgeSound.h; sourceTree = "<group>"; };
+		F5E2815119BD94B7006F0CAD /* DodgeSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DodgeSound.m; sourceTree = "<group>"; };
+		F5E2815319BD955E006F0CAD /* buttonClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = buttonClick.mp3; path = Resource/buttonClick.mp3; sourceTree = "<group>"; };
+		F5E2815519BD9CA4006F0CAD /* DodgeEndGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DodgeEndGame.h; sourceTree = "<group>"; };
+		F5E2815619BD9CA4006F0CAD /* DodgeEndGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DodgeEndGame.m; sourceTree = "<group>"; };
+		F5E2815819BDA2CA006F0CAD /* backBarEndScene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backBarEndScene.png; path = Resource/backBarEndScene.png; sourceTree = "<group>"; };
+		F5E2815919BDA2CA006F0CAD /* buttonTwitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonTwitter.png; path = Resource/buttonTwitter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,11 +155,19 @@
 				F5E2811619BD7D60006F0CAD /* Main_iPad.storyboard */,
 				F5E2811919BD7D60006F0CAD /* SpriteViewController.h */,
 				F5E2811A19BD7D60006F0CAD /* SpriteViewController.m */,
-				F5E2811C19BD7D60006F0CAD /* SpriteMyScene.h */,
-				F5E2811D19BD7D60006F0CAD /* SpriteMyScene.m */,
+				F5E2814119BD910C006F0CAD /* MainScene.h */,
+				F5E2814219BD910C006F0CAD /* MainScene.m */,
+				F5E2813E19BD7DF6006F0CAD /* DodgeScene.h */,
+				F5E2813F19BD7DF6006F0CAD /* DodgeScene.m */,
+				F5E2815519BD9CA4006F0CAD /* DodgeEndGame.h */,
+				F5E2815619BD9CA4006F0CAD /* DodgeEndGame.m */,
+				F5E2815019BD94B7006F0CAD /* DodgeSound.h */,
+				F5E2815119BD94B7006F0CAD /* DodgeSound.m */,
 				F5E2811F19BD7D60006F0CAD /* Spaceship.png */,
 				F5E2812119BD7D60006F0CAD /* Images.xcassets */,
+				F5E2814519BD93F3006F0CAD /* Resource */,
 				F5E2810819BD7D60006F0CAD /* Supporting Files */,
+				F5E2814419BD92ED006F0CAD /* DodgeGameSetting.h */,
 			);
 			path = Dodge;
 			sourceTree = "<group>";
@@ -165,6 +199,21 @@
 				F5E2813119BD7D60006F0CAD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5E2814519BD93F3006F0CAD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F5E2815819BDA2CA006F0CAD /* backBarEndScene.png */,
+				F5E2815919BDA2CA006F0CAD /* buttonTwitter.png */,
+				F5E2815319BD955E006F0CAD /* buttonClick.mp3 */,
+				F5E2814619BD9401006F0CAD /* buttonRestart.png */,
+				F5E2814719BD9401006F0CAD /* buttonStart.png */,
+				F5E2814819BD9401006F0CAD /* endGame.mp3 */,
+				F5E2814919BD9401006F0CAD /* getOnePoint.mp3 */,
+				F5E2814A19BD9401006F0CAD /* logo.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,9 +294,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E2812019BD7D60006F0CAD /* Spaceship.png in Resources */,
+				F5E2815A19BDA2CA006F0CAD /* backBarEndScene.png in Resources */,
+				F5E2814C19BD9401006F0CAD /* buttonStart.png in Resources */,
+				F5E2814D19BD9401006F0CAD /* endGame.mp3 in Resources */,
+				F5E2814B19BD9401006F0CAD /* buttonRestart.png in Resources */,
+				F5E2815B19BDA2CA006F0CAD /* buttonTwitter.png in Resources */,
 				F5E2812219BD7D60006F0CAD /* Images.xcassets in Resources */,
+				F5E2814E19BD9401006F0CAD /* getOnePoint.mp3 in Resources */,
+				F5E2814F19BD9401006F0CAD /* logo.png in Resources */,
 				F5E2811819BD7D60006F0CAD /* Main_iPad.storyboard in Resources */,
 				F5E2811519BD7D60006F0CAD /* Main_iPhone.storyboard in Resources */,
+				F5E2815419BD955E006F0CAD /* buttonClick.mp3 in Resources */,
 				F5E2810C19BD7D60006F0CAD /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +325,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E2810E19BD7D60006F0CAD /* main.m in Sources */,
-				F5E2811E19BD7D60006F0CAD /* SpriteMyScene.m in Sources */,
+				F5E2815719BD9CA4006F0CAD /* DodgeEndGame.m in Sources */,
+				F5E2815219BD94B7006F0CAD /* DodgeSound.m in Sources */,
+				F5E2814019BD7DF6006F0CAD /* DodgeScene.m in Sources */,
+				F5E2814319BD910C006F0CAD /* MainScene.m in Sources */,
 				F5E2811219BD7D60006F0CAD /* SpriteAppDelegate.m in Sources */,
 				F5E2811B19BD7D60006F0CAD /* SpriteViewController.m in Sources */,
 			);
